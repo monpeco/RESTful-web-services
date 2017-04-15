@@ -1,5 +1,8 @@
 #!/usr/bin/ruby -w
 # amazon-book-search.rb
+
+#Example 1-2. Searching for books with a Ruby script
+
 require 'amazon/search'
 if ARGV.size != 2
   puts "Usage: #{$0} [Amazon Web Services AccessKey ID] [text to search for]"
